@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(to right, lightskyblue, lightblue, lightblue, lightblue, lightskyblue);
+}
+
+h2{
+    text-align: center;
+}
+
+table{
+    background-color: lightskyblue;
+    border: 2px solid black;
+    width: 600px;
+    height: 200px;
+    /*margin-left: 30%;*/
+    margin: auto;
+}
+
+td{
+    text-align: center;
+}
+
+th{
+    font-size: 25px;
+}
+
+.title{
+    font-style: oblique;
+}

@@ -1,0 +1,52 @@
+.wrapper{
+    border: 15px solid black;
+    border-radius: 15px;
+    background-color: grey;
+    height: 400px;
+}
+
+h1{
+    color: lightgreen;
+    text-align: center;
+}
+
+h3{
+    color: blue;
+}
+
+p{
+    color: red;
+}
+
+.college{
+    border: 10px solid black;
+    border-radius: 10px;
+    background-image: url(../4-Assets/upfeathers.png);
+    text-align: center;
+    width: 467px;
+    height: 283px;
+    position: fixed;
+    left: 30px;
+}
+
+.sibling{
+    border: 10px solid black;
+    border-radius: 10px;
+    background-image: url(../4-Assets/upfeathers.png);
+    text-align: center;
+    width: 467px;
+    height: 282px;
+    position: fixed;
+    left: 34.125%;
+}
+
+.game{
+    border: 10px solid black;
+    border-radius: 10px;
+    background-image: url(../4-Assets/upfeathers.png);
+    text-align: center;
+    width: 467px;
+    height: 282px;
+    position: fixed;
+    right: 30px;
+}
