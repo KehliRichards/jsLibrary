@@ -12,4 +12,4 @@ let hey = function hi() {
 
 let hey = function hi() {
     console.log('Hi!');
-}
+} 

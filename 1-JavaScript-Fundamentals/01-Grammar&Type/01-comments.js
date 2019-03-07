@@ -66,6 +66,7 @@ Enjoy Bread
 // cd .. takes you back
 /* cd + desktop
         javascript-library
+        git status
         git --version
         git init
         git add . (period means ALL instead of specifying files you want looked at)
@@ -132,3 +133,37 @@ var x = 12
 // let fb = 15;
 
 // (fb%3 == 0 && fb%5 == 0) ? console.log('Fizz Buzz') : (fb%5 == 0) ? console.log('Buzz') : (fb%3 == 0) ? console.log('Fizz') : fb;
+
+
+
+// WEEK ONE, DAY THREE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+for(let i =0; i<=100;i++){
+    if(i % 3 ==0 && i % 5==0){
+        console.log('FizzBuzz');
+    } else if(i %5 ==0){
+        console.log('Buzz')
+    } else if( i % 3 ==0){
+        console.log('Fizz')
+    } else {
+        console.log(i);
+    }
+}
+
+for(let FB = 0; FB<=100;FB++){
+    switch (true) {
+      case (FB % 3 === 0 && FB % 5 === 0):
+      console.log('Fizz Buzz');
+      break;
+      case (FB % 5 === 0):
+      console.log('Buzz');
+      break;
+      case (FB % 3 === 0):
+      console.log('Fizz');
+      break; 
+      default :
+      console.log(FB); 
+    }
+    
+  }

@@ -93,5 +93,59 @@ nav h1 {
     left: 840px;
     top: 90px;
     box-shadow: 6px 6px 40px;
+    /* animation:linear infinite alternate;
+    animation-name: turnPage;
+    animation-duration: 0.5s; */
+}     
 
+/* @keyframes turnPage {
+  0% { left: 1%;}
+  100%{ left : 74%;}
+} */
+
+/* #button1 {
+  z-index: 1;
+  width: 55px;
+  height: 55px;
+  border: 0px transparent;
+  border-radius: 30px 30px 30px 30px;
+  background-color: rgb(223, 223, 223);
+  text-align: center;
+  font-size: 45px;
+  color: rgb(104, 104, 104);
+  padding: 3px 2px 2px 4px;
+  position: absolute;
+  left: 1425px;
+  bottom: 275px;
+} */
+
+/* .buttons:hover {
+  width: 55px;
+  height: 55px;
+  color: aqua;
+  background-color: rgb(221, 30, 30);
+}  */
+
+/* reference left right animation */
+/* #pot{
+  bottom:15%;
+  position:absolute;
+  animation:linear infinite alternate;
+  animation-name: turnPage;
+  animation-duration: 5s;
+}     
+@keyframes turnPage {
+  0% { left: 0;}
+  75%{ left : 50%;}
+  100%{left : 100%}
+} */
+
+/* .elementToFadeInAndOut {
+    opacity: 1;
+    animation: fade 2s linear;
 }
+
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 } */
