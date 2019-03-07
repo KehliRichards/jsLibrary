@@ -122,6 +122,3 @@ Object.keys(garden).forEach(g => {
         console.log(garden[key]);
     }
 })
-
-
-// Challenge
