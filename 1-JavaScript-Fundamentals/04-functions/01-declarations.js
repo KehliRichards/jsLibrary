@@ -17,6 +17,8 @@ function  hi()   {
 
 */
 
-function hi() {
+function hi(hollo) {
     console.log('Hi!');
 } 
+
+hi();

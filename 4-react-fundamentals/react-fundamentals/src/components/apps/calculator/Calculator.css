@@ -1,0 +1,54 @@
+.button {
+    height:7vh;
+    width:4vw;
+    font-size: 18pt;
+    font-weight: 450;
+    color: rgb(22, 22, 22);
+    background: lightgrey;
+}
+
+.buttonP {
+    background: orange;
+    height: 7vh;
+    width: 4vw;
+    font-size: 18pt;
+    font-weight: 450;
+    color: rgb(22, 22, 22);
+}
+
+.buttonN {
+    background: darkgrey;
+    height: 7vh;
+    width: 4vw;
+    font-size: 18pt;
+    font-weight: 450;
+    color: rgb(22, 22, 22);
+}
+
+
+.display-block{
+    display: block;
+}
+
+.calculator-body {
+    background: rgb(26, 26, 26);
+    padding: 1vw;;
+    width: 18.46vw;
+    border-top: 3px solid rgb(117, 117, 117);
+    border-left: 3px solid rgb(117, 117, 117);
+    border-right: 4px solid rgb(46, 46, 46);
+    border-bottom: 4px solid rgb(46, 46, 46);
+}
+
+.calculator-body h1 {
+    text-align: center;
+    color: lightgrey;
+}
+
+.calculator-body hr {
+    background: lightgrey;
+}
+
+.results {
+    color: lightgrey;
+}

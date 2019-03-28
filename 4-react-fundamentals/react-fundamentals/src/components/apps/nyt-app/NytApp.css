@@ -1,0 +1,41 @@
+.nButton {
+    margin-top: 2vh;
+    margin-right: 1vw;
+    float: right;
+}
+
+.pButton {
+    margin-top: 2vh;
+    margin-right: 1vw;
+}
+
+.searchResults {
+    margin-top: 5vh;
+}
+
+.aButtons {
+    margin-bottom: 5vh;
+}
+
+.NYTimg {
+    width: 45vw;
+    height: 20vh;
+    margin-top: -3vh;
+    margin-left: -1.65vw;
+    margin-bottom: -4vh;
+}
+
+/* .span {
+    margin-top: 5vh;
+} */
+
+.dateInput {
+    margin-bottom: 2vh;
+}
+
+.searchInput {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-left: 2px solid grey;
+    padding-left: 3px;
+}

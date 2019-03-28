@@ -26,7 +26,7 @@ console.log(hi());
 
 
 function hi() {
-    return 'Hi!';
+    return 'Boop!';
 }
 hi(); // doesnt work cuz return (can't see if its not console.logged)
 

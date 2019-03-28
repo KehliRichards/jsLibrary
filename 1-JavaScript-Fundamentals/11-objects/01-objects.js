@@ -122,3 +122,63 @@ Object.keys(garden).forEach(g => {
         console.log(garden[key]);
     }
 })
+
+
+
+function main(){
+  let a = 1;
+  let b = 2;
+  let c = -3;
+  mystery(a,b,c);
+  mystery(c,4,a);
+  mystery(a+b, b+c, c+a);
+}
+
+function mystery(c,a,b) {
+  console.log(b + "+" + c + "=" + a );
+}
+
+main(); // -3+1=2, 1+-3=4, -2+3=-1
+
+
+
+
+// Challenge
+let x = 'racecar';
+let word1 = x.split('');
+// console.log(word1);
+let word2 = word1.join('');
+// console.log(word2);
+let revWord1 = word1.reverse();
+// console.log(revWord);
+let revWord2 = revWord1.join('');
+// console.log(revWord2);
+
+function pal(){
+  if(word2 == revWord2){
+  console.log('This is a palindrome!');
+} else {
+  console.log('This is not a palindrome.')
+}
+}
+
+pal();
+
+
+// Answer
+function checker(){
+  let str = 'bob';
+  let rev = str.split('').reverse().join('');
+  
+  console.log(rev);
+
+  if (str == rev){
+    console.log(true);
+  } else {
+    console.log(false);
+  }
+}
+checker();
+
+
+
